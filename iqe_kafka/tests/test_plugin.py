@@ -47,5 +47,6 @@ class TestKafka:
             assert 'test' in message
             assert message['test'] == 'some message'
 
-# def test_plugin_accessible(application):
-#     hasattr(application, "kafka")
+
+def test_plugin_accessible(application):
+     hasattr(application, "kafka")
