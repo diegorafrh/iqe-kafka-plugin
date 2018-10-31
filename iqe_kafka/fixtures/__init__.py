@@ -1,4 +1,6 @@
 import pytest
+from kafka import SimpleClient
+
 
 @pytest.fixture
 def test_topic():
