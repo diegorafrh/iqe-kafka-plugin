@@ -1,0 +1,5 @@
+[iqe.application_plugins]
+kafka = iqe_kafka:Applicationkafka
+
+[pytest11]
+iqe_kafka_plugin = iqe_kafka.pytest_plugin
